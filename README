@@ -1,0 +1,93 @@
+what is it?
+--------------------
+1. This is a Command Line Based Calculator 
+2. Modules: 
+		Addition:: Addition can be of Multiple Numbers. 
+		Substraction:: Substraction can be of Multiple Numbers.
+		Division:: Division can be of Multiple Numbers.
+		Multiplication:: Multiplications can be of Multiple Numbers.
+3. Libraries:  
+		Maths Library + Customized Library.
+
+
+Latest Version
+-------------------
+Latest version is 1.0.0.0
+
+
+Documentation
+-------------------
+Documents related information can be seen in https://www.calculator.com/docs/trunk/ .
+
+
+Installation
+-------------------
+please find the INSTALL file for installation related information.
+
+
+Licensing
+--------------------
+
+
+
+Cryptographic Software Licensing
+-------------------------------------------
+This distribution may include software that has been designed for use
+  with cryptographic software.  The country in which you currently reside
+  may have restrictions on the import, possession, use, and/or re-export
+  to another country, of encryption software.  BEFORE using any encryption
+  software, please check your country's laws, regulations and policies
+  concerning the import, possession, or use, and re-export of encryption
+  software, to see if this is permitted.  See <http://www.wassenaar.org/>
+  for more information.
+
+  The U.S. Government Department of Commerce, Bureau of Industry and
+  Security (BIS), has classified this software as Export Commodity 
+  Control Number (ECCN) 5D002.C.1, which includes information security
+  software using or performing cryptographic functions with asymmetric
+  algorithms.  The form and manner of this Apache Software Foundation
+  distribution makes it eligible for export under the License Exception
+  ENC Technology Software Unrestricted (TSU) exception (see the BIS 
+  Export Administration Regulations, Section 740.13) for both object 
+  code and source code.
+
+  The following provides more details on the included files that
+  may be subject to export controls on cryptographic software:
+
+    Apache httpd 2.0 and later versions include the mod_ssl module under
+       modules/ssl/
+    for configuring and listening to connections over SSL encrypted
+    network sockets by performing calls to a general-purpose encryption
+    library, such as OpenSSL or the operating system's platform-specific
+    SSL facilities.
+
+    In addition, some versions of apr-util provide an abstract interface
+    for symmetrical cryptographic functions that make use of a
+    general-purpose encryption library, such as OpenSSL, NSS, or the
+    operating system's platform-specific facilities. This interface is
+    known as the apr_crypto interface, with implementation beneath the
+    /crypto directory. The apr_crypto interface is used by the
+    mod_session_crypto module available under
+      modules/session
+    for optional encryption of session information.
+
+    Some object code distributions of Apache httpd, indicated with the
+    word "crypto" in the package name, may include object code for the
+    OpenSSL encryption library as distributed in open source form from
+    <http://www.openssl.org/source/>.
+
+  The above files are optional and may be removed if the cryptographic
+  functionality is not desired or needs to be excluded from redistribution.
+  Distribution packages of Apache httpd that include the word "nossl"
+  in the package name have been created without the above files and are
+  therefore not subject to this notice.
+
+
+
+
+Contacts
+-------------
+1. Divya Jyoti Das
+   Mob:: 8793961751
+   mail: divya.das@cumulus-systems.com
+   mail: divyajyotidas15@gmail.com
