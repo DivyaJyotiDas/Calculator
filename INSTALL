@@ -1,0 +1,18 @@
+
+How To Run Calculator
+------------------------------
+
+1. Clone the code using command "sudo git clone https://github.com/Dj15/Calculator.git"
+
+2. Run the command "sudo make clean" to clean the object files and Debug files.
+
+3. This project requires shared Library Files kept at lib Folder.
+
+4. Keep the Library at Environment Path in my case /usr/local/lib/tup/
+
+5. Build the Library PATH(LD_LIBRARY_PATH) using command "ldconfig" or search for library using "ldconfig -p | grep operand".
+
+6. Once done use command "sudo make". This will create Executable file in bin/ folder.
+
+7. Run. Ex:: " ./bin/calculate 1 + 5".
+
