@@ -19,9 +19,7 @@ int main(int argc,char** argv)
 		printf("Value is %s ",argv[3]);
 	else if(argc == 5)
 		printf("value is %s ",argv[4]);*/
-	printf("\nArgc:: %d\n",argc);
-	printf("\nargv[0]:: %s\n,argv[1]:: %s\n, argv[3]:: %s\n,argv[4]:: %s\n ", argv[0],argv[1],argv[3], argv[4]);
-	printf("argv[2] = %s\n",argv[2]);
+	printf("\n argv[0]:: %s\n argv[1]:: %s\n argv[2]:: %s\n argv[3]:: %s\n ", argv[0],argv[1],argv[2],argv[3]);
 
 
 	//printf("%d",'+');
@@ -30,33 +28,24 @@ int main(int argc,char** argv)
 
 	if(strcmp(argv[2], "+") == 0)
 	{
-		printf("Calling sum function.\n");
 		float res=sum(argc, argv);  //caling Sum method.
-		printf("\nSum:: %f",res);
-		printf("Calling ends.");
+		printf("\nSum:: %f\n",res);
 	}
 	if(strcmp(argv[2], "-") == 0)
 	{
-		printf("\nSub Function Called.");
 		float res = sub(argc, argv);
-		printf("\nSub:: %f",res);
-		printf("\nSub Function Ends.");
+		printf("\nSub:: %f\n",res);
 	}
 	if(strcmp(argv[2], "*") == 0)
 	{
-		printf("\nMultiplication Function Called.");
 		float res=mul();
-		printf("\nMul:: %f",res);
-		printf("\nMultiplication Function Ends.");
+		printf("\nMul:: %f\n",res);
 	}
 	if(strcmp(argv[2], "/") == 0)
 	{
-		printf("\nDivision Function Called.");
 		float res=div();
-		printf("\nDiv:: %f",res);
-		printf("\nDivision Function Ends.");
+		printf("\nDiv:: %f\n",res);
 	}
 
-	printf("\nExiting...\n\n");
 	return 0;
 } 
