@@ -1,11 +1,10 @@
 #include "div.h"
 #include "operand.h"
-float div(int no_of_arg)
+float div(int argc, char** argv)
 {
         float res;
-	no_of_arg=0;
-        for(int i=0;i<no_of_arg;i++)
-                res-=no_of_arg;
-        return res;
+        res = div_of_operand(argc, argv);
+	printf("\nDiv return by lib:: %f",res);
+       // return res;
 }
 

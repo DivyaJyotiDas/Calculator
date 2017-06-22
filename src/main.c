@@ -38,12 +38,12 @@ int main(int argc,char** argv)
 	}
 	if(strcmp(argv[2], "*") == 0)
 	{
-		float res=mul();
+		float res=mul(argc, argv);
 		printf("\nMul:: %f\n",res);
 	}
 	if(strcmp(argv[2], "/") == 0)
 	{
-		float res=div();
+		float res=div(argc, argv);
 		printf("\nDiv:: %f\n",res);
 	}
 

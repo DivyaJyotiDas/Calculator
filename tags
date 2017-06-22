@@ -5,19 +5,16 @@
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
 CC	Makefile	/^CC=gcc$/;"	m
-CFLAGS	Makefile	/^CFLAGS= -g -I include\/ -L \/home\/divya\/WorkStation\/Calculator\/lib\/operand.so$/;"	m
+CFLAGS	Makefile	/^CFLAGS= -g -fpic -I include\/ -L \/usr\/local\/lib\/tup\/$/;"	m
 __div__	include/div.h	2;"	d
 __mul__	include/mul.h	2;"	d
 __operand__	include/operand.h	2;"	d
 __sub__	include/sub.h	2;"	d
 __sum__	include/sum.h	2;"	d
 div	src/div.c	/^float div(int no_of_arg)$/;"	f
-div_of_operand	src/operand.c	/^float div_of_operand(int argc, char * base_addr_argv)$/;"	f
 main	src/main.c	/^int main(int argc,char** argv)$/;"	f
-mul	src/mul.c	/^float mul(int no_of_arg)$/;"	f
-mul_of_operand	src/operand.c	/^float mul_of_operand(int argc, char * base_addr_argv)$/;"	f
+mul	src/mul.c	/^float mul(int argc, char** argv)$/;"	f
 path	Makefile	/^path= \/home\/divya\/WorkStation\/Calculator\/build$/;"	m
 sub	src/sub.c	/^float sub(int argc, char** argv)$/;"	f
-sub_of_operand	src/operand.c	/^int sub_of_operand(int argc, char * base_addr_argv)$/;"	f
-sum	src/sum.c	/^int sum(int argc, char** argv)$/;"	f
-sum_of_operand	src/operand.c	/^float sum_of_operand(int argc, char** base_addr_argv)$/;"	f
+sum	src/sum.c	/^float sum(int argc, char** argv)$/;"	f
+var	Makefile	/^var= -loperand$/;"	m
