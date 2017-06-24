@@ -1,3 +1,13 @@
+/*
+*       This is main function for Calculator Project.   *
+*       This main function takes commandline Arguments  *
+*       Arguments can be any number                     *
+*       Genereal Rule for giving commands with arguments*
+*       ./bin/calculate num1 operator num2 ...
+*       Dont forget to use space between two number.    *
+*
+*/
+
 // Header Files   */
 #include<stdio.h>
 #include<string.h>

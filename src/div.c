@@ -3,8 +3,7 @@
 float div(int argc, char** argv)
 {
         float res;
-        res = div_of_operand(argc, argv);
-	printf("\nDiv return by lib:: %f",res);
+        res = div_of_operand(argc, argv);// Here we need to fix library.
        // return res;
 }
 
